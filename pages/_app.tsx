@@ -1,6 +1,6 @@
 import type { AppProps } from 'next/app';
 import { InstantDbProvider } from '@instantdb/react';
-import '../styles/globals.css';
+
 
 function MyApp({ Component, pageProps }: AppProps) {
   return (
